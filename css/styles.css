@@ -1,6 +1,10 @@
 body {
   font-size: 16px;
   font-family: sans-serif;
+  background-image: url("/img/background/tala.png");
+  background-repeat: no-repeat;
+  background-size: 1000px;
+  background-position: bottom right;
 
 }
 
@@ -13,7 +17,9 @@ body {
 }
 
 .project-bg, .hobbies-bg {
-  background-color: rgba(255, 175, 71, 0.904);
+  
+  background-color: rgba(255, 161, 38, 0.938);
+  
 
 }
 
@@ -33,6 +39,7 @@ body {
 }
 
 .header {
+  background-image: url("./img/tala.png");
   background-color: rgb(48, 48, 48);
   height: 500px;
 }
@@ -53,6 +60,7 @@ h3 {
 
 .about-me {
   color: rgb(255, 255, 255);
+  
 }
 
 .about-bg{
