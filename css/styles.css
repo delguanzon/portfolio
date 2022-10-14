@@ -1,12 +1,12 @@
 @font-face {
   font-family: Courgette;
-  src: url("/fonts/Courgette-Regular.ttf");
+  src: url("./fonts/Courgette-Regular.ttf");
 }
 
 body {
   font-size: 16px;
   font-family: sans-serif;
-  background-image: url("/img/background/tala.png");
+  background-image: url("./img/background/tala.png");
   background-repeat: no-repeat;
   background-size: 1000px;
   background-position: bottom right;
