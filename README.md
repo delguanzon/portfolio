@@ -21,7 +21,7 @@ My portfolio webpage that would serve as an online portfolio to showcase my skil
 
 ## Known Bugs
 
-* GitHub Pages will not display background image and FontFace from CSS file
+* GitHub Pages will sometimes not display background image and FontFace from CSS file
 
 ## License
 
