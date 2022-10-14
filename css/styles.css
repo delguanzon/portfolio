@@ -2,6 +2,7 @@
   font-family: Courgette;
   src: url(./fonts/Courgette-Regular.ttf);
 }
+@import url("https://fonts.googleapis.com/css2?family=Courgette");
 
 body {
   font-size: 16px;
