@@ -4,6 +4,9 @@ body {
 
 }
 
+.my-projects, .hobbies-interest {
+  margin-top: 10%;
+}
 #profile-pic {
   width: 100px;
   height: auto;
@@ -18,7 +21,7 @@ body {
 }
 
 .header {
-  background-color: black;
+  background-color: rgb(48, 48, 48);
   height: 500px;
 }
 
