@@ -17,7 +17,7 @@ My portfolio webpage that would serve as an online portfolio to showcase my skil
 
 ## Setup/Installation Requirements
 
-* Visit Url: delguanzon.github.io/portfolio/
+* Visit Url: https://delguanzon.github.io/portfolio/
 
 ## Known Bugs
 
