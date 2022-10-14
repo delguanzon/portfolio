@@ -5,8 +5,18 @@ body {
 }
 
 .my-projects, .hobbies-interest {
-  margin-top: 10%;
+  padding: 20px;
 }
+
+.my-projects h4, .hobbies-interest h4 {
+  color: aliceblue;
+}
+
+.project-bg, .hobbies-bg {
+  background-color: rgba(255, 175, 71, 0.904);
+
+}
+
 #profile-pic {
   width: 100px;
   height: auto;
@@ -28,7 +38,7 @@ body {
 }
 
 h3 {
-  margin:auto;
+  text-align:center;
 }
 
 .icons {
@@ -36,6 +46,15 @@ h3 {
  margin: auto;
 }
 
-#card-links
-{
+#fn {
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.about-me {
+  color: rgb(255, 255, 255);
+}
+
+.about-bg{
+  padding: 25px;
 }
