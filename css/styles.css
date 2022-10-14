@@ -12,12 +12,14 @@ body {
   height: auto;
   margin: auto;
   display: block;
+  border: dashed 5px;
 }
 
 #my-card {
   width: 250px;
   color: white;
   margin: auto;
+  overflow: hidden;
 }
 
 .header {
@@ -27,4 +29,13 @@ body {
 
 h3 {
   margin:auto;
+}
+
+.icons {
+ width: 30px;
+ margin: auto;
+}
+
+#card-links
+{
 }
