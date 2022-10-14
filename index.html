@@ -5,14 +5,14 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-  <link rel="stylesheet" href="./css/style.css" type="text/css">
+  <link rel="stylesheet" href="./css/styles.css" type="text/css">
   <title>Document</title>
 </head>
 <body>
   
-  <div class="header">
+  <div class="header d-flex justify-content-center">
     <div id="my-card">
-      <img src="./img/portfolio.jpg" alt="profile-pic">
+      <img id="profile-pic" class="rounded-circle" src="./img/portfolio.jpg" alt="profile-pic">
       <p>Yodel Guanzon</p>
       <p>Polytechnic University of the Philippines | Epicodus Student</p>
       <div id="card-links">
@@ -23,37 +23,35 @@
       <p>Scroll down below to learn more about me and my projects!</p>
     </div>
   </div>
-
-  <div class="about-me container"> 
-
+  
     <!-- This section would display a brief background-->
-   
-    <div class="my-background"> I studied Information Technology at the Polytechnic University of the Philippines and graduated with a Bachelor's Degree. Software and web development have been my passion ever since I'm young but due to poor financial conditions and job availability in the Philippines after I graduated, I had to choose a different career path. I'm currently enrolled at a Software Development bootcamp at <em><a href="https://www.epicodus.com">Epicodus</a></em> to re-learn what I lost and embark on a <strong>new journey </strong>!
+  <div class="container">
+    <div class="my-background row"> <p>I studied Information Technology at the Polytechnic University of the Philippines and graduated with a Bachelor's Degree. Software and web development have been my passion ever since I'm young but due to poor financial conditions and job availability in the Philippines after I graduated, I had to choose a different career path. I'm currently enrolled at a Software Development bootcamp at <em><a href="https://www.epicodus.com">Epicodus</a></em> to re-learn what I lost and embark on a <strong>new journey </strong>!</p>
     </div>
-
+    
     <!-- This section would showcase my latest projects-->
-    <div class="my-projects">
-      <div class="first-proj card">
+    <div class="my-projects row">
+      <div class="first-proj card col">
         <div class="card-header">
-          Private Island Website
+          Private Island Webpage
         </div>
         <div class="card-body">
           <p class="card-text">Website for a Private-Island resort with room booking functionality </p>
           <a href="https://github.com/delguanzon/private-island-website" class="btn btn-primary">View on Github</a>
         </div>      
       </div>
-      <div class="second-proj card">
+      <div class="second-proj card col">
         <div class="card-header">
-          My Favorite Band
+          Favorite Band Webpage
         </div>
         <div class="card-body">
           <p class="card-text">Website for My Favorite Band. It contains an image gallery and list of upcoming shows </p>
           <a href="https://github.com/delguanzon/bandpractice" class="btn btn-primary">View on Github</a>
         </div>
       </div>
-      <div class="third-proj card">
+      <div class="third-proj card col">
         <div class="card-header">
-          My Portfolio
+          Portfolio Webpage
         </div>
         <div class="card-body">
           <p class="card-text">Portfolio website to showcase what we learned so far in the bootcamp</p>
@@ -63,9 +61,10 @@
     </div>
 
     <!-- This section showcases my hobbies and interest -->
-    <div class="hobbies-interest">
-      <h3>More About Me</h3>
-      <div class="Photography card">
+    <div class="hobbies-interest row">
+      <h3 class="text-center">More About Me</h3>
+      <div class="w-100"></div>
+      <div class="Photography card col">
         <h5>Photography</h5>
         <p class="card-text">My interest in photography started while I was in college. We had a Multimedia Class where we only learned about "Rule of Thirds". So far my photography knowledge only came from Youtube. You can view my photos through the following sites:</p>
         <ul>
@@ -74,7 +73,7 @@
           <li><a href="#">Pixiv</a></li>
         </ul>
       </div>
-      <div class="Gaming card">
+      <div class="Gaming card col">
         <h5>Gaming</h5>
         <p class="card-text">GGWP! Who doesn't love to game? My most played games are the following:</p>
         <ol>
@@ -83,7 +82,7 @@
           <li>Stardew Valley</li>
         </ol>
       </div>
-      <div class="Cooking card">
+      <div class="Cooking card col">
         <h5>Cooking</h5>
         <p class="card-text">I love to cook as much as I love to eat! Most of the time I make Filipino Dishes but sometimes I try replicating food the I ate from restaurant especially if it's really good. The following are my recommended Filipino Dishes:</p>
         <ul>
@@ -93,7 +92,9 @@
         </ul>
       </div>
     </div>
-
   </div>
+  <div class="footer"> </div>
+</div>
+
 </body>
 </html>

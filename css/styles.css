@@ -1,0 +1,22 @@
+body {
+  font-size: 16px;
+
+}
+
+#profile-pic {
+  width: 100px;
+  height: auto;
+  margin: auto;
+  display: block;
+}
+
+#my-card {
+  width: 250px;
+  color: white;
+  margin: auto;
+}
+
+.header {
+  background-color: black;
+  height: 500px;
+}
