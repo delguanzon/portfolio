@@ -1,6 +1,6 @@
 @font-face {
   font-family: Courgette;
-  src: url("/css/fonts/Courgette-Regular.ttf");
+  src: url("../css/fonts/Courgette-Regular.ttf");
 }
 
 body {
@@ -45,11 +45,14 @@ span{
   color: white;
   margin: auto;
   overflow: hidden;
+  background-color: #343a4091 ;
 }
 
 .header {
-  background-image: url("../img/tala.png");
-  background-color: rgb(48, 48, 48);
+  background-image: url("../img/background.jpg");
+  /*background-color: rgb(48, 48, 48);*/
+  background-size: cover;
+  background-position: 0 -250px;
   height: 500px;
 }
 
@@ -58,8 +61,10 @@ h3 {
 }
 
 .icons {
- width: 30px;
- margin: auto;
+  width: 30px;
+  margin-left: 5px; 
+  padding: 2px;
+  float: right;
 }
 
 #fn {
@@ -72,8 +77,9 @@ h3 {
   
 }
 
-.about-bg{
+.about-bg {
   padding: 25px;
+  background-color: #343A40;
 }
 
 .card {
@@ -94,7 +100,7 @@ a {
   background-color: rgba(255, 255, 255, 0.973);
 }
 
-.quote{
+.quote {
   margin: auto;
   width: 500px;
   padding: 40px;
