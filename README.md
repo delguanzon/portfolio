@@ -15,13 +15,17 @@
 
 My portfolio webpage that would serve as an online portfolio to showcase my skills and experience and gave a little info about me.
 
+[Visit my Portfolio](https://delguanzon.github.io/portfolio/)
+
 ## Setup/Installation Requirements
 
-* Visit Url: https://delguanzon.github.io/portfolio/
+* Clone this repository on your desktop
+* Navigate to the level of the directory
+* Look for index.html and open it in your web browser
 
 ## Known Bugs
 
-* Background image and font-face sometimes doesn't load in gh=pages.
+* GitHub Pages will sometimes not display background image and FontFace from CSS file
 
 ## License
 

@@ -9,138 +9,126 @@
   <title>Document</title>
 </head>
 <body>
-  
   <div class="header d-flex justify-content-center">
-    <div id="my-card" class="jumbotron bg-dark">
+    <div id="my-card" class="jumbotron">
       <img id="profile-pic" class="rounded-circle" src="./img/portfolio.jpg" alt="profile-pic">
       <h2 id="fn" class="m-"">Yodel Guanzon</h2>
       <p>Epicodus Student <br>
       Polytechnic University of the Philippines</p>
       <div id="card-links">
         <a href="https://www.linkedin.com/in/yodelg/" target="_blank"><img class="icons" src="img/icons/linkedin.png"></a>
-        <a href="https://github.com/delguanzon" ><img class="icons" src="img/icons/github.png"></a>
-        <a href="mailto:yodelguanzon@live.com" ><img class="icons" src="img/icons/gmail.png"></a>
+        <a href="https://github.com/delguanzon" id="github"><img class="icons" src="img/icons/github.png"></a>
+        <a href="mailto:yodelguanzon@live.com" id="gmail"><img class="icons" src="img/icons/gmail.png"></a>
       </div>
     </div>
-  </div>
-  
-    
-  <div class="about-me">
-    <!-- This section would display a brief background about me-->
-    <div class="about-bg bg-dark">
+  </div> 
+
+  <!-- This section would display a brief background about me-->
+  <div class="about-me">    
+    <div class="about-bg">
       <div class="container">     
           <h3>About Me</h3>
           <p>I studied Information Technology at the Polytechnic University of the Philippines and graduated with a Bachelor's Degree. Software and web development have been my passion ever since I'm young but due to <span>poor financial conditions</span> and job availability in the Philippines after I graduated, I had to choose a different career path. I'm currently enrolled at a Software Development bootcamp at <em><a href="https://www.epicodus.com" target="_blank">Epicodus</a></em> to re-learn what I lost and embark on a <strong>new journey </strong>!</p>
-        </div>
       </div>
     </div>
+  </div>
 
-    
-    <!-- This section would showcase my latest projects-->
-    <div class="project-bg">
-      <div class="container">
-        <div class="my-projects row">      
-          <h4 class="col-4 align-self-center">Latest Projects </h4>
-          <div class="col-8">
-            <div class="card-group">
-              <div class="first-proj card bg-secondary">
-                <div class="card-header">
-                  Private Island Webpage
-                </div>
-                <div class="card-body">
-                  <p class="card-text">Website for a Private-Island resort with room booking functionality </p>
-                  <a href="https://github.com/delguanzon/private-island-website" class="btn btn-primary">View on Github</a>
-                </div>      
+  <!-- This section would showcase my latest projects-->
+  <div class="project-bg">
+    <div class="container">
+      <div class="my-projects row">      
+        <h4 class="col-4 align-self-center">Latest Projects</h4>
+        <div class="col-8">
+          <!--Card Group for github repos-->
+          <div class="card-group">
+            <div class="first-proj card bg-secondary">
+              <div class="card-header">Private Island Webpage</div>
+              <div class="card-body">
+                <p class="card-text">Website for a Private-Island resort with room booking functionality </p>
+                <a href="https://github.com/delguanzon/private-island-website" class="btn btn-primary">View on Github</a>
+              </div>      
+            </div>
+            <div class="second-proj card bg-dark">
+              <div class="card-header">
+                Favorite Band Webpage
               </div>
-            
-
-            
-              <div class="second-proj card bg-dark">
-                <div class="card-header">
-                  Favorite Band Webpage
-                </div>
-                <div class="card-body">
-                  <p class="card-text">Website for My Favorite Band. It contains an image gallery and list of upcoming shows </p>
-                  <a href="https://github.com/delguanzon/bandpractice" class="btn btn-primary">View on Github</a>
-                </div>
+              <div class="card-body">
+                <p class="card-text">Website for My Favorite Band. It contains an image gallery and list of upcoming shows </p>
+                <a href="https://github.com/delguanzon/bandpractice" class="btn btn-primary">View on Github</a>
               </div>
-            
-
-            
-              <div class="third-proj card bg-secondary">
-                <div class="card-header">
-                  Portfolio Webpage
-                </div>
-                <div class="card-body">
-                  <p class="card-text">Portfolio website to showcase what we learned so far in the bootcamp</p>
-                  <a href="https://github.com/delguanzon/portfolio" class="btn btn-primary">View on Github</a>
-                </div>
+            </div> 
+            <div class="third-proj card bg-secondary">
+              <div class="card-header">
+                Portfolio Webpage
+              </div>
+              <div class="card-body">
+                <p class="card-text">Portfolio website to showcase what we learned so far in the bootcamp</p>
+                <a href="https://github.com/delguanzon/portfolio" class="btn btn-primary">View on Github</a>
               </div>
             </div>
           </div>
         </div>
       </div>
     </div>
+  </div>
 
-    <!-- This section is for a quote  -->
-    <div class="quote-bg">
-      <div class="container">
-        <div class="quote row">  
-          <blockquote class="blockquote quotes">
-            <p>"Everything you can imagine is real!"</p>
-            <footer class="blockquote-footer">Pablo Picasso</footer>
-          </blockquote>
-        </div>   
-      </div>
+  <!-- This section is for a quote  -->
+  <div class="quote-bg">
+    <div class="container">
+      <div class="quote row">  
+        <blockquote class="blockquote quotes">
+          <p>"Everything you can imagine is real!"</p>
+          <footer class="blockquote-footer">Pablo Picasso</footer>
+        </blockquote>
+      </div>   
     </div>
+  </div>
 
-    <!-- This section showcases my hobbies and interest -->
-    <div class="hobbies-bg">
-      <div class="container">
-        <div class="hobbies-interest row">      
-          <h4 class="col-3 align-self-center order-12">Hobbies and Interest </h4>
-          <div class="col-9 card-deck">
-            <div class="Photography card bg-secondary">
-              <img class="card-img-top" src="./img/photography.jpg" alt="Card image cap">
-              <div class="card-body">
-                <h5>Photography</h5>
-                <p class="card-text">My interest in photography started when I was in college. We had a Multimedia Class where we only learned about the "Rule of Thirds". So far my photography knowledge only came from Youtube and google searches. You can view my photos through the following sites:</p>
-                <ul>
-                  <li><a href="https://www.instagram.com/yodelihihoo/" target="_blank">Instagram</a></li>
-                  <li><a href="https://www.flickr.com/photos/127435921@N03/albums/72157649106681582" target="_blank">Flickr</a></li>
-                </ul>
-              </div>
-            </div>                
-            <div class="Gaming card bg-dark">
-              <img class="card-img-top" src="./img/valorant.jpg" alt="Card image cap">
-              <div class="card-body">            
-                <h5 class="card-title">Gaming</h5>
-                <p class="card-text">GGWP! Who doesn't love to game? My most played games are the following:</p>
-                <ol>
-                  <li>Valorant</li>
-                  <li>Dota 2</li>
-                  <li>Stardew Valley</li>
-                </ol>
-              </div>
-            </div>              
-            <div class="Cooking card bg-secondary">
-              <img class="card-img-top" src="./img/dinuguan.jpg" alt="Card image cap">
-              <div class="card-body">
-                <h5 class="card-title">Cooking</h5>                  
-                <p class="card-text">I love to cook as much as I love to eat! Most of the time I make Filipino Dishes but sometimes I try replicating food that I ate from different cuisines especially if it tastes really good. The following are my recommended Filipino Dishes:</p>
-                <ul>
-                  <li>Bicol Express</li>
-                  <li>Chicken/Pork Adobo</li>
-                  <li>Beef Pares</li>
-                </ul>
-              </div>
+  <!-- This section showcases my hobbies and interest -->
+  <div class="hobbies-bg">
+    <div class="container">
+      <div class="hobbies-interest row">      
+        <h4 class="col-3 align-self-center order-12">Hobbies and Interest </h4>
+        <div class="col-9 card-deck">
+          <div class="Photography card bg-secondary">
+            <img class="card-img-top" src="./img/photography.jpg" alt="Card image cap">
+            <div class="card-body">
+              <h5>Photography</h5>
+              <p class="card-text">My interest in photography started when I was in college. We had a Multimedia Class where we only learned about the "Rule of Thirds". So far my photography knowledge only came from Youtube and google searches. You can view my photos through the following sites:</p>
+              <ul>
+                <li><a href="https://www.instagram.com/yodelihihoo/" target="_blank">Instagram</a></li>
+                <li><a href="https://www.flickr.com/photos/127435921@N03/albums/72157649106681582" target="_blank">Flickr</a></li>
+              </ul>
+            </div>
+          </div>                
+          <div class="Gaming card bg-dark">
+            <img class="card-img-top" src="./img/valorant.jpg" alt="Card image cap">
+            <div class="card-body">            
+              <h5 class="card-title">Gaming</h5>
+              <p class="card-text">GGWP! Who doesn't love to game? My most played games are the following:</p>
+              <ol>
+                <li>Valorant</li>
+                <li>Dota 2</li>
+                <li>Stardew Valley</li>
+              </ol>
+            </div>
+          </div>              
+          <div class="Cooking card bg-secondary">
+            <img class="card-img-top" src="./img/dinuguan.jpg" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Cooking</h5>                  
+              <p class="card-text">I love to cook as much as I love to eat! Most of the time I make Filipino Dishes but sometimes I try replicating food that I ate from different cuisines especially if it tastes really good. The following are my recommended Filipino Dishes:</p>
+              <ul>
+                <li>Bicol Express</li>
+                <li>Chicken/Pork Adobo</li>
+                <li>Beef Pares</li>
+              </ul>
             </div>
           </div>
         </div>
       </div>
     </div>
-  <div class="footer"> Produced by Yodel Guanzon</digitv>
-</div>
-
+  </div>
+  <div class="footer"> Produced by Yodel Guanzon</div>
 </body>
 </html>
