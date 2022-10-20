@@ -6,7 +6,7 @@
 body {
   font-size: 16px;
   font-family: sans-serif;
-  background-image: url("/css/background/tala.png");
+  background-image: url("../css/background/tala.png");
   background-repeat: no-repeat;
   background-size: 1000px;
   background-position: bottom right;
@@ -48,7 +48,7 @@ span{
 }
 
 .header {
-  background-image: url("./img/tala.png");
+  background-image: url("../img/tala.png");
   background-color: rgb(48, 48, 48);
   height: 500px;
 }
