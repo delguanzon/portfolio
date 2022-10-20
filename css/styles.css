@@ -95,7 +95,8 @@ a {
 .quotes p {
   font-family: Courgette;
   font-size: 40px;
-  text-shadow: 2px 2px rgba(15, 15, 15, 0.89);  
+  text-shadow: 2px 2px rgba(15, 15, 15, 0.89); 
+  color: white; 
 }
 
 .quote-bg {
