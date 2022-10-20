@@ -95,11 +95,12 @@ a {
 .quotes p {
   font-family: Courgette;
   font-size: 40px;
-  text-shadow: 2px 2px rgba(255, 161, 38);
+  text-shadow: 2px 2px rgba(15, 15, 15, 0.89);  
 }
 
 .quote-bg {
-  background-color: rgba(255, 255, 255, 0.973);
+  background-color: #343a40;
+  background: linear-gradient(to top, rgb(52, 58, 64), rgba(34, 34, 34, 0.952) 25%, rgb(52, 58, 64));
 }
 
 .quote {
@@ -107,6 +108,7 @@ a {
   width: 500px;
   padding: 40px;
 }
+
 .footer {
   text-align: center;
   background-color: black;
