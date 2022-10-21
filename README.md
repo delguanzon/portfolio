@@ -20,7 +20,7 @@ My portfolio webpage that would serve as an online portfolio to showcase my skil
 ## Setup/Installation Requirements
 
 * Clone this repository on your desktop
-* Navigate to the level of the directory
+* Navigate to the top level of the directory
 * Look for index.html and open it in your web browser
 
 ## Known Bugs
